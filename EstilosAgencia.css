@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(135deg, #e2e2e2, #cfd9df);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; 
+    padding: 0; 
+}
+
+img {
+    max-height: 600px;
+    margin-right: 10px;
+}
+
+.nav-pills .nav-link {
+    color: #333;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-pills .nav-link:hover {
+    color: #000000;
+    background-color: #d4932a;
+}
+
+header {
+    background-color: darkcyan;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    text-decoration: underline;
+    color: #4471f7;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imagenInicio {
+    position: relative;
+    top: -25px;
+    width: 100%;
+}
+
+.imagenInicio img {
+    width: 100%; 
+    height: auto;
+}
+
+.VideoPromocional {
+    text-align: center;
+}
+
+
+footer {
+    background-color: darkcyan; 
+    padding: 20px 0; 
+    width: 100%; 
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0; 
+}
+
+footer .nav {
+    justify-content: center;
+    padding: 0; 
+    margin: 0; 
+}
+
+footer .nav-link {
+    color: white; 
+    transition: 0.3s ease-in-out;
+}
+
+footer .nav-link:hover {
+    color: #d4932a; 
+}
+li{
+    text-decoration: underline;
+}
